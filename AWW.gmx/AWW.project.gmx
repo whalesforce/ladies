@@ -5,7 +5,14 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\coin</sprite>
+    <sprite>sprites\plat_basic</sprite>
+    <sprite>sprites\plat_basic2</sprite>
+    <sprite>sprites\bullet</sprite>
+    <sprite>sprites\player_right</sprite>
+    <sprite>sprites\player_left</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <help>
