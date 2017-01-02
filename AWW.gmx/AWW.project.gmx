@@ -12,6 +12,9 @@
     <sprite>sprites\bullet</sprite>
     <sprite>sprites\player_right</sprite>
     <sprite>sprites\player_left</sprite>
+    <sprite>sprites\player__up</sprite>
+    <sprite>sprites\moth_left</sprite>
+    <sprite>sprites\moth_right</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
