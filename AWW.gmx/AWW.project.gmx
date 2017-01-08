@@ -15,9 +15,16 @@
     <sprite>sprites\player__up</sprite>
     <sprite>sprites\moth_left</sprite>
     <sprite>sprites\moth_right</sprite>
+    <sprite>sprites\plat_metal</sprite>
+    <sprite>sprites\grace_left</sprite>
+    <sprite>sprites\grace_right</sprite>
+    <sprite>sprites\paper</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <rooms name="rooms">
+    <room>rooms\hopper</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
