@@ -19,8 +19,11 @@
     <sprite>sprites\grace_left</sprite>
     <sprite>sprites\grace_right</sprite>
     <sprite>sprites\paper</sprite>
+    <sprite>sprites\water</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\hopper_bg</background>
+  </backgrounds>
   <paths name="paths"/>
   <rooms name="rooms">
     <room>rooms\hopper</room>
