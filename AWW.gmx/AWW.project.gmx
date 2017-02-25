@@ -12,7 +12,8 @@
     <sprite>sprites\bullet</sprite>
     <sprite>sprites\player_right</sprite>
     <sprite>sprites\player_left</sprite>
-    <sprite>sprites\player__up</sprite>
+    <sprite>sprites\player__up_right</sprite>
+    <sprite>sprites\player_up_left</sprite>
     <sprite>sprites\moth_left</sprite>
     <sprite>sprites\moth_right</sprite>
     <sprite>sprites\plat_metal</sprite>
@@ -20,10 +21,17 @@
     <sprite>sprites\grace_right</sprite>
     <sprite>sprites\paper</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\placeholder</background>
+  </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\main_character</object>
+    <object>objects\obj_platb1</object>
+    <object>objects\obj_platb2</object>
+  </objects>
   <rooms name="rooms">
-    <room>rooms\hopper</room>
+    <room>rooms\test</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
