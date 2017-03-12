@@ -20,9 +20,13 @@
     <sprite>sprites\grace_left</sprite>
     <sprite>sprites\grace_right</sprite>
     <sprite>sprites\paper</sprite>
+    <sprite>sprites\water</sprite>
+    <sprite>sprites\butt</sprite>
   </sprites>
   <backgrounds name="background">
+
     <background>background\placeholder</background>
+
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
