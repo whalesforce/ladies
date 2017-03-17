@@ -20,19 +20,18 @@
     <sprite>sprites\grace_left</sprite>
     <sprite>sprites\grace_right</sprite>
     <sprite>sprites\paper</sprite>
-    <sprite>sprites\water</sprite>
-    <sprite>sprites\butt</sprite>
+    <sprite>sprites\after_sparkle</sprite>
   </sprites>
   <backgrounds name="background">
-
     <background>background\placeholder</background>
-
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\main_character</object>
     <object>objects\obj_platb1</object>
     <object>objects\obj_platb2</object>
+    <object>objects\obj_coin</object>
+    <object>objects\obj_controller</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\test</room>
