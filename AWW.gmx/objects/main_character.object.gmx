@@ -77,10 +77,14 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>score += 10;
+            <string>var xPos = other.x;
+var xPos = other.y;
 with(other){
-    instance_destroy();
+    instance_change(obj_aftersparkle, true);
+    
 }
+
+
 score += 10;
 </string>
           </argument>

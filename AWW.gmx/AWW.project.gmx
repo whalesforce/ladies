@@ -32,6 +32,8 @@
     <object>objects\obj_platb2</object>
     <object>objects\obj_coin</object>
     <object>objects\obj_controller</object>
+    <object>objects\obj_aftersparkle</object>
+    <object>objects\obj_moth</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\test</room>
