@@ -68,7 +68,6 @@
     <instance objName="obj_platb2" x="352" y="256" name="inst_EEAA5BDB" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platb2" x="416" y="224" name="inst_93DBE1CB" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_moth" x="96" y="224" name="inst_E7A42631" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_platb1" x="32" y="224" name="inst_1F8FB6A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platb1" x="192" y="224" name="inst_BCE7FFFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
