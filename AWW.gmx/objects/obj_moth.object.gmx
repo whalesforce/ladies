@@ -49,7 +49,13 @@ image_speed = 0.5;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(direction == 180 &amp;&amp; place_free(x - 1, y)){
+            <string>
+//if point_distance(x, y, main_character.x, main_character.y) &lt; 5
+  // {
+  // move_towards_point(main_character.x, main_character.y, 5);
+  // }
+//else 
+if(direction == 180 &amp;&amp; place_free(x - 1, y)){
 sprite_index = moth_left;
 }
 else if (direction == 0 &amp;&amp; place_free(x + 1, y)){
@@ -72,28 +78,17 @@ else{
     <event eventtype="7" enumb="1">
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
+        <id>113</id>
+        <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <exetype>1</exetype>
+        <functionname>action_reverse_xdir</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if(direction == 0)
-    direction = 180;
-    
-    else
-    direction = 0;
-</string>
-          </argument>
-        </arguments>
       </action>
     </event>
   </events>
