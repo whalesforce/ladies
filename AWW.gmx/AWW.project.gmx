@@ -24,6 +24,8 @@
     <sprite>sprites\spr_start_button</sprite>
     <sprite>sprites\spr_quit_button</sprite>
     <sprite>sprites\spr_scores_button</sprite>
+    <sprite>sprites\spr_end_door</sprite>
+    <sprite>sprites\spr_end_door_open</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\placeholder</background>
@@ -40,6 +42,8 @@
     <object>objects\obj_start_button</object>
     <object>objects\obj_quit_button</object>
     <object>objects\obj_scores_button</object>
+    <object>objects\obj_paper</object>
+    <object>objects\obj_end_door</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\test</room>
