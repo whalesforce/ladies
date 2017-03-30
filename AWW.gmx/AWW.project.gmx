@@ -46,6 +46,7 @@
     <object>objects\obj_end_door</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\start_page</room>
     <room>rooms\test</room>
   </rooms>
   <help>
