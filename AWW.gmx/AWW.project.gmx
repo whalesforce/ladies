@@ -22,32 +22,45 @@
     <sprite>sprites\paper</sprite>
     <sprite>sprites\after_sparkle</sprite>
     <sprite>sprites\spr_start_button</sprite>
+    <sprite>sprites\spr_see_scores</sprite>
     <sprite>sprites\spr_quit_button</sprite>
     <sprite>sprites\spr_scores_button</sprite>
     <sprite>sprites\spr_end_door</sprite>
     <sprite>sprites\spr_end_door_open</sprite>
+    <sprite>sprites\spr_life</sprite>
+    <sprite>sprites\spr_note</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\placeholder</background>
+    <background>background\background1</background>
+    <background>background\background2</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\f_dis</font>
+    <font>fonts\hs_display</font>
+  </fonts>
   <objects name="objects">
     <object>objects\main_character</object>
     <object>objects\obj_platb1</object>
     <object>objects\obj_platb2</object>
     <object>objects\obj_coin</object>
-    <object>objects\obj_controller</object>
+    <object>objects\obj_end_controller</object>
     <object>objects\obj_aftersparkle</object>
     <object>objects\obj_moth</object>
     <object>objects\obj_start_button</object>
+    <object>objects\obj_scores_end</object>
     <object>objects\obj_quit_button</object>
-    <object>objects\obj_scores_button</object>
+    <object>objects\obj_scores</object>
     <object>objects\obj_paper</object>
     <object>objects\obj_end_door</object>
+    <object>objects\obj_grace</object>
+    <object>objects\obj_note</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\start_page</room>
     <room>rooms\test</room>
+    <room>rooms\end_page</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
